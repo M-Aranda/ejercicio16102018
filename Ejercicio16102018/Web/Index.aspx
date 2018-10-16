@@ -12,11 +12,29 @@
 
     <% DAO_porquesi dp = new DAO_porquesi();%>
 
-    <h1>Top 3 juegos</h1>
+    <h3>Top 3 juegos</h3>
+    <% List<Juego> listaTop3 = dp.Top3(); %>
+    <table>
+        <% foreach (var item in listaTop3)
+            {%>
+         <td>
+            <tr><%= item.Id%></tr>
+            <tr><%= item.Nombre%></tr>
+            <tr><%= item.Stock%></tr>
+            <tr><%= item.Stock%></tr>
+        </td>
+
+            <%} %>
+
+
+    </table>
+    
+
+
     <br>
-    <h1>Promedio de precios: <%= dp.PromedioPrecios() %></h1>
+    <h3>Promedio de precios: <%= dp.PromedioPrecios() %></h3>
     <br>
-    <h1>Juegos survival</h1>
+    <h3>Juegos survival</h3>
     <br>
 
 
