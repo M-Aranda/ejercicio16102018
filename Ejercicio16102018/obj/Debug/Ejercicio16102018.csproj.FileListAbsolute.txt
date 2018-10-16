@@ -1,0 +1,9 @@
+C:\Users\maranda\Desktop\Ejercicio16102018\Ejercicio16102018\bin\Ejercicio16102018.dll.config
+C:\Users\maranda\Desktop\Ejercicio16102018\Ejercicio16102018\bin\Ejercicio16102018.dll
+C:\Users\maranda\Desktop\Ejercicio16102018\Ejercicio16102018\bin\Ejercicio16102018.pdb
+C:\Users\maranda\Desktop\Ejercicio16102018\Ejercicio16102018\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maranda\Desktop\Ejercicio16102018\Ejercicio16102018\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maranda\Desktop\Ejercicio16102018\Ejercicio16102018\obj\Debug\Ejercicio16102018.csprojResolveAssemblyReference.cache
+C:\Users\maranda\Desktop\Ejercicio16102018\Ejercicio16102018\obj\Debug\Ejercicio16102018.csproj.CoreCompileInputs.cache
+C:\Users\maranda\Desktop\Ejercicio16102018\Ejercicio16102018\obj\Debug\Ejercicio16102018.dll
+C:\Users\maranda\Desktop\Ejercicio16102018\Ejercicio16102018\obj\Debug\Ejercicio16102018.pdb
