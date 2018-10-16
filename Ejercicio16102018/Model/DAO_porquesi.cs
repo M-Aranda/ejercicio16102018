@@ -64,7 +64,7 @@ namespace Ejercicio16102018.Model
         public List<Juego> VerJuegosSurvival()
         {
             List<Juego> lista = new List<Juego>();
-            DataTable dt = Ejecutar("verJuegosSurvival");
+            DataTable dt = Ejecutar("SELECT * FROM verJuegosSurvival");
 
             Juego j;
             for (int i = 0; i < dt.Rows.Count; i++)

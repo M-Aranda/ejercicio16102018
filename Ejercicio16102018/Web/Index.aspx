@@ -13,16 +13,25 @@
     <% DAO_porquesi dp = new DAO_porquesi();%>
 
     <h3>Top 3 juegos</h3>
-    <% List<Juego> listaTop3 = dp.Top3(); %>
-    <table>
+    <% List<Juego> listaTop3 = dp.Top3();
+       List<Juego> listaSurvival = dp.VerJuegosSurvival();
+
+        %>
+    <table border="1">
+            <td>Id</td>
+            <td>Nombre</td>
+            <td>Stock</td>
+            <td>Precio</td>
+        </th>
         <% foreach (var item in listaTop3)
             {%>
-         <td>
-            <tr><%= item.Id%></tr>
-            <tr><%= item.Nombre%></tr>
-            <tr><%= item.Stock%></tr>
-            <tr><%= item.Stock%></tr>
-        </td>
+
+         <tr>
+            <td><%= item.Id%></td>
+            <td><%= item.Nombre%></td>
+            <td><%= item.Stock%></td>
+            <td><%= item.Precio%></td>
+        </tr>
 
             <%} %>
 
@@ -36,6 +45,26 @@
     <br>
     <h3>Juegos survival</h3>
     <br>
+     <table border="1">
+            <td>Id</td>
+            <td>Nombre</td>
+            <td>Stock</td>
+            <td>Precio</td>
+        </th>
+        <% foreach (var item in listaSurvival)
+            {%>
+
+         <tr>
+            <td><%= item.Id%></td>
+            <td><%= item.Nombre%></td>
+            <td><%= item.Stock%></td>
+            <td><%= item.Precio%></td>
+        </tr>
+
+            <%} %>
+
+
+    </table>
 
 
 
